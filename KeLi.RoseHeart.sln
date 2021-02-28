@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28729.10
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KeLi.RoseHeart.App", "KeLi.RoseHeart.App\KeLi.RoseHeart.App.csproj", "{C5D5BBF1-9B5C-46DC-AA01-7EA5AB5DF164}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C5D5BBF1-9B5C-46DC-AA01-7EA5AB5DF164}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C5D5BBF1-9B5C-46DC-AA01-7EA5AB5DF164}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C5D5BBF1-9B5C-46DC-AA01-7EA5AB5DF164}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C5D5BBF1-9B5C-46DC-AA01-7EA5AB5DF164}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CF1D776D-1C49-432B-A22D-5DCE1DA0ABDF}
+	EndGlobalSection
+EndGlobal

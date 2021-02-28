@@ -19,5 +19,4 @@ namespace KeLi.RoseHeart.App
         internal static extern bool ReleaseCapture();
 
     }
-
 }

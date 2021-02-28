@@ -9,7 +9,7 @@ namespace KeLi.RoseHeart.App
     {
         private bool _flag = true;
 
-        private RoseHelper _helper;
+        private readonly RoseHelper _helper;
 
         public MainForm()
         {
@@ -35,9 +35,7 @@ namespace KeLi.RoseHeart.App
                 _flag = false;
             }
 
-            else
-                tmrTime.Interval = new Random().Next(100, 300);
-
+            tmrTime.Interval = new Random().Next(100, 300);
             _helper.CreateItem();
         }
 

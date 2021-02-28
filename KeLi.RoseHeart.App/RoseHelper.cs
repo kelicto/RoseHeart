@@ -75,10 +75,6 @@ namespace KeLi.RoseHeart.App
             _randomData.Remove(index.Key);
         }
 
-        public void FlashControls()
-        {
-        }
-
         private Point ComputeLocation(int row, int column)
         {
             return new Point(_startPoint.X + column * _itemSize.Width, _startPoint.Y + row * _itemSize.Height);

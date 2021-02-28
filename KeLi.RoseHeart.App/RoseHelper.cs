@@ -4,8 +4,6 @@ using System.Drawing;
 using System.Linq;
 using System.Windows.Forms;
 
-using KeLi.RoseHeart.App.Properties;
-
 namespace KeLi.RoseHeart.App
 {
     public class RoseHelper
@@ -48,7 +46,7 @@ namespace KeLi.RoseHeart.App
                 var pictureBox = new PictureBox
                 {
                     Size = _itemSize,
-                    Image = Resources.Rose,
+                    Image = Image.FromFile("Resources/Rose.png"),
                     BackColor = Color.Transparent,
                     SizeMode = PictureBoxSizeMode.Zoom,
                     Location = ComputeLocation(index.Value[0], index.Value[1])

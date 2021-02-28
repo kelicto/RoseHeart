@@ -144,17 +144,14 @@
     </BootstrapperPackage>
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\Rose_Raw.jpg">
+    <None Include="Resources\Music.mp3">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\The_Ruins_of_Love.mp3">
+    <None Include="Resources\Background.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Background.jpg" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Preview\IMG_2021_0228_151606.png" />

@@ -59,45 +59,5 @@ namespace KeLi.RoseHeart.App.Properties {
                 resourceCulture = value;
             }
         }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap Background {
-            get {
-                object obj = ResourceManager.GetObject("Background", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap Rose {
-            get {
-                object obj = ResourceManager.GetObject("Rose", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap Rose_Raw {
-            get {
-                object obj = ResourceManager.GetObject("Rose_Raw", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Byte[].
-        /// </summary>
-        internal static byte[] The_Ruins_of_Love {
-            get {
-                object obj = ResourceManager.GetObject("The_Ruins_of_Love", resourceCulture);
-                return ((byte[])(obj));
-            }
-        }
     }
 }

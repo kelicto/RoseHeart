@@ -13,8 +13,9 @@ namespace KeLi.RoseHeart.App
 
         public MainForm()
         {
-            MusicUtil.PlayMusic("Resources/The_Ruins_of_Love.mp3");
+            MusicUtil.PlayMusic("Resources/Music.mp3");
 
+            BackgroundImage = Image.FromFile("Resources/Background.jpg");
             InitializeComponent();
 
             _helper = new RoseHelper(this);

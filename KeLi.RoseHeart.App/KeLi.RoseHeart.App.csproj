@@ -157,8 +157,9 @@
     <None Include="Resources\Background.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Video_2021-02-28_143226.mp4" />
-    <Content Include="Video_2021-02-28_143226.wmv" />
+    <Content Include="IMG_2021_0228_151606.png" />
+    <Content Include="VID_2021_0228_143226.mp4" />
+    <Content Include="VID_2021_0228_143226.wmv" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

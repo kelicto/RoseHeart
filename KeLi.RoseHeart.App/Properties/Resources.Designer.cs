@@ -80,6 +80,15 @@ namespace KeLi.RoseHeart.App.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Resources/Music.mp3.
+        /// </summary>
+        internal static string Path_Music {
+            get {
+                return ResourceManager.GetString("Path_Music", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
         internal static System.Drawing.Bitmap Rose {

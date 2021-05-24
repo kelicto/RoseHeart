@@ -99,7 +99,7 @@
     <Compile Include="Forms\MainForm.Designer.cs">
       <DependentUpon>MainForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="Utils\MusicUtil.cs" />
+    <Compile Include="Utils\MusicHelper.cs" />
     <Compile Include="Utils\RoseHelper.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Utils\User32Importer.cs" />

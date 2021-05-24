@@ -3,6 +3,7 @@ using System.Drawing;
 using System.Threading;
 using System.Windows.Forms;
 
+using KeLi.RoseHeart.App.Properties;
 using KeLi.RoseHeart.App.Utils;
 
 namespace KeLi.RoseHeart.App.Forms
@@ -11,14 +12,14 @@ namespace KeLi.RoseHeart.App.Forms
     {
         private bool _flag = true;
 
-        private readonly RoseHelper _helper;
+        private readonly RoseHelper _roseHelper;
 
         public MainForm()
         {
             InitializeComponent();
-
-            MusicUtil.PlayMusic("Resources/Music.mp3");
-            _helper = new RoseHelper(this);
+            
+            new MusicHelper(Resources.Path_Music).PlayMusic();
+            _roseHelper = new RoseHelper(this);
         }
 
         public sealed override Color BackColor
@@ -37,7 +38,7 @@ namespace KeLi.RoseHeart.App.Forms
             }
 
             tmrTime.Interval = new Random().Next(100, 300);
-            _helper.CreateItem();
+            _roseHelper.CreateItem();
         }
 
         private void MainForm_MouseMove(object sender, MouseEventArgs e)

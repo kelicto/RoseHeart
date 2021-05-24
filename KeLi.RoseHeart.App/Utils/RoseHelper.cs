@@ -4,7 +4,9 @@ using System.Drawing;
 using System.Linq;
 using System.Windows.Forms;
 
-namespace KeLi.RoseHeart.App
+using KeLi.RoseHeart.App.Properties;
+
+namespace KeLi.RoseHeart.App.Utils
 {
     public class RoseHelper
     {
@@ -46,7 +48,7 @@ namespace KeLi.RoseHeart.App
                 var pictureBox = new PictureBox
                 {
                     Size = _itemSize,
-                    Image = Image.FromFile("Resources/Rose.png"),
+                    Image = Resources.Rose,
                     BackColor = Color.Transparent,
                     SizeMode = PictureBoxSizeMode.Zoom,
                     Location = ComputeLocation(index.Value[0], index.Value[1])
@@ -62,7 +64,7 @@ namespace KeLi.RoseHeart.App
                     AutoSize = true,
                     BackColor = Color.Transparent,
                     ForeColor = ComputeColor(),
-                    Font = new Font("STCaiyun", 36, FontStyle.Regular, GraphicsUnit.Point, 134),
+                    Font = new Font(Resources.Font_STCaiyun, 36, FontStyle.Regular, GraphicsUnit.Point, 134),
                     Location = ComputeLocation(index.Value[0], index.Value[1]),
                     Text = content
                 };

@@ -1,6 +1,8 @@
 ﻿using System;
 using System.Windows.Forms;
 
+using KeLi.RoseHeart.App.Forms;
+
 namespace KeLi.RoseHeart.App
 {
     public static class Program
@@ -13,5 +15,4 @@ namespace KeLi.RoseHeart.App
             Application.Run(new MainForm());
         }
     }
-
 }

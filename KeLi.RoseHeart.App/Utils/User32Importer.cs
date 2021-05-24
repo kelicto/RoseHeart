@@ -1,9 +1,9 @@
 ﻿using System;
 using System.Runtime.InteropServices;
 
-namespace KeLi.RoseHeart.App
+namespace KeLi.RoseHeart.App.Utils
 {
-    public class WinApi
+    public class User32Importer
     {
         public const int WM_NCLBUTTONDOWN = 0xA1;
         public const int HT_CAPTION = 0x2;

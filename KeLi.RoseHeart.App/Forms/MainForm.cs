@@ -3,7 +3,9 @@ using System.Drawing;
 using System.Threading;
 using System.Windows.Forms;
 
-namespace KeLi.RoseHeart.App
+using KeLi.RoseHeart.App.Utils;
+
+namespace KeLi.RoseHeart.App.Forms
 {
     public partial class MainForm : Form
     {
@@ -13,11 +15,9 @@ namespace KeLi.RoseHeart.App
 
         public MainForm()
         {
-            MusicUtil.PlayMusic("Resources/Music.mp3");
-
-            BackgroundImage = Image.FromFile("Resources/Background.jpg");
             InitializeComponent();
 
+            MusicUtil.PlayMusic("Resources/Music.mp3");
             _helper = new RoseHelper(this);
         }
 
@@ -44,8 +44,8 @@ namespace KeLi.RoseHeart.App
         {
             if (e.Button == MouseButtons.Left)
             {
-                WinApi.ReleaseCapture();
-                WinApi.SendMessage(Handle, WinApi.WM_NCLBUTTONDOWN, WinApi.HT_CAPTION, 0);
+                User32Importer.ReleaseCapture();
+                User32Importer.SendMessage(Handle, User32Importer.WM_NCLBUTTONDOWN, User32Importer.HT_CAPTION, 0);
             }
         }
     }

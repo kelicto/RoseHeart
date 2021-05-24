@@ -1,6 +1,6 @@
 ﻿using NAudio.Wave;
 
-namespace KeLi.RoseHeart.App
+namespace KeLi.RoseHeart.App.Utils
 {
     public class MusicUtil
     {
